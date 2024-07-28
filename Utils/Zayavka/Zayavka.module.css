@@ -1,0 +1,112 @@
+.zayavka{
+    background-image: url('/images/zayavka.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* .zayavkaconatiner{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+} */
+
+.white{
+    font-size: 18px;
+    color: #fff;
+}
+
+.bwhite{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 650;
+}
+
+.yellow{
+    font-size: 25px;
+    color: #ffdd03;
+    font-weight: 650;
+}
+
+.grey{
+    font-size: 16px;
+    color: #c9c9c9;
+}
+
+.left{
+    padding-top: 100px;
+}
+
+.round{
+    color: #4f5051;
+    border: 5px solid grey;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.form{
+    padding: 100px 40px;
+    background: rgba(0,0,0,0.95);
+}
+
+.form input{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+}
+
+.form input:first-child{
+    margin-bottom: 15px !important;
+}
+
+.icon{
+    position: absolute;
+    font-size: 22px;
+    left: 20px;
+    top: 6px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    background: #ffdd03;
+}
+
+
+@media screen and (max-width:768px) {
+    .leftheader{
+        text-align: center;
+    }
+
+    .leftoption{
+        display: grid;
+        justify-content: center;
+    }
+
+    .leftoption > div:first-child{
+        display: grid;
+        justify-content: center;
+    }
+
+    .leftoption > div:nth-child(2){
+        text-align: center;
+    }
+
+    .left{
+        padding-top: 30px;
+    }
+
+    .form{
+        padding: 30px 20px;
+    }
+}

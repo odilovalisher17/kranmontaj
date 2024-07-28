@@ -1,0 +1,27 @@
+.onas{
+    margin-left: 40px;
+}
+
+.img img{
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.imgtext{
+    margin-left: 30px;
+}
+
+.imgtext div{
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 13pt;
+}
+
+
+@media screen and (max-width:768px) {
+    .onas{
+        margin-left: 0px;
+    }
+}
+

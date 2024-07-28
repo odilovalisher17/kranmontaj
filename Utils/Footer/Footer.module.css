@@ -1,0 +1,53 @@
+.footerone{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    padding: 0 10px;
+    color: #919191;
+    font-size: 16px;
+}
+
+.copyright{
+    font-weight: 600;
+}
+
+.footertwo{
+    background: #08081f;
+    padding: 20px 0;
+}
+
+.footertwo > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.brands{
+    display: flex;
+}
+
+.brands a{
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 992px) {
+    .links{
+        display: none;
+    }
+
+    .footerone{
+        justify-content: center;
+        text-align: center;
+    }
+}
+

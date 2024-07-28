@@ -1,0 +1,54 @@
+.service{
+    padding:70px 0;
+}
+
+.header{
+    color: #000408;
+    font-size: 34px;
+    font-weight: 650;
+    margin-bottom: 5px;
+}
+
+.headertext{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.serviceimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.textred{
+    color: #c22323;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.list ul li{
+    color: #737373;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .serviceimg{
+        display: none;
+    }   
+
+    .header{
+        font-size: 22px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .serviceimg{
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.header{
+    background-image: url('/images/header.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    
+}
+
+.header >div{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > div > div{
+    max-width: 50%;
+    
+}
+
+.header > div >div div{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .header{
+        height: 70vh;
+    }
+    .header > div >div {
+        max-width: 90%;
+    }
+}
